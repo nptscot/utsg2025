@@ -9,9 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
     "section": "",
-    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
+    "text": "Welcome! This site presents research and slides on integrating diverse data sources for future-proof transport modelling, with a focus on the Network Planning Tool for Scotland (NPT)."
+  },
+  {
+    "objectID": "index.html#project-summary",
+    "href": "index.html#project-summary",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
+    "section": "Project summary",
+    "text": "Project summary\nThis project demonstrates how open, proprietary, and crowdsourced data can be integrated for robust, reproducible transport analysis and planning. For details, see the slides and paper."
   },
   {
     "objectID": "slides.html#full-author-list",
