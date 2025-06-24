@@ -1,9 +1,19 @@
 ---
-title: Reproducible slides with Quarto and continuous deployment via GitHub actions
+title: Integrating Diverse Data Sources for Future-Proof Transport Modelling
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+date: last-modified
+bibliography: 
+  - references.bib
+  - references_gisruk.bib
 ---
 
-The materials here support a talk at the [Spatial Data Science across Languages (SDSL)](https://spatial-data-science.github.io/2024/) conference 2024.
+Welcome! This site presents research and slides on integrating diverse data sources for future-proof transport modelling, with a focus on the Network Planning Tool for Scotland (NPT).
 
-See the [slides here](slides) and in the dropdown menu above.
+- See the [slides here](slides) and in the dropdown menu above.
+- See the source code at [github.com/nptscot/utsg2025](https://github.com/nptscot/utsg2025).
 
-See the source code at [github.com/robinlovelace](https://github.com/Robinlovelace/reproducible-slides-repo-template).
+## Project summary
+
+This project demonstrates how open, proprietary, and crowdsourced data can be integrated for robust, reproducible transport analysis and planning. For details, see the slides and paper.

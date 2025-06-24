@@ -6,6 +6,7 @@ project:
     - paper.qmd
 
 website:
+  title: "Integrating Diverse Data Sources for Future-Proof Transport Modelling"
   navbar:
     background: primary
     search: true
@@ -14,5 +15,5 @@ website:
         href: index.qmd
       - text: "Slides"
         href: slides.qmd
-      # - text: "Paper"
-      #   href: paper.qmd 
+      - text: "Paper"
+        href: paper.qmd
