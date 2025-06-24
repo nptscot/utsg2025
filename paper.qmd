@@ -11,6 +11,8 @@ author:
     affiliation: University of Leeds, UK
   - name: Martin Lucas-Smith
     affiliation: CycleStreets Ltd, UK
+  - name: Malcolm Morgan
+    affiliation: University of Leeds, UK
   - name: Dustin Carlino
     affiliation: A/B Street Ltd, UK
   - name: Angus Calder
