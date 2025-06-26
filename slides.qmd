@@ -25,64 +25,66 @@ bibliography:
   - references_gisruk.bib
 ---
 
-## Full author list
-- Robin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Pablo Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis
-- Affiliations: University of Leeds, CycleStreets Ltd, A/B Street Ltd, Sustrans Scotland
-
 # Motivation
 
-- Traditional transport models rely on limited datasets, leading to biases and blind spots [@lovelace2017].
-- The 'data revolution' enables integration of open, proprietary, and crowdsourced data.
-- Aim: Develop models that can easily integrate new data sources for more robust, future-proof transport planning.
+-   Traditional transport models rely on limited datasets, leading to biases and blind spots [@lovelace2017].
+-   The 'data revolution' enables integration of open, proprietary, and crowdsourced data.
+-   Aim: Develop models that can easily integrate new data sources for more robust, future-proof transport planning.
+
+![Schematic diagram of the 4-stage model (Boyce and Williams 2015).](images/paste-12.png)
 
 # Introduction
 
-- Historic models focus on commuting and simplified networks, missing active travel and non-work trips [@vybornova2024].
-- Recent tools often focus on either behaviour or infrastructure, limiting scope [@vierø2024].
-- The Network Planning Tool for Scotland (NPT) demonstrates a data-centric, integrative approach.
+-   Historic models focus on commuting and simplified networks, missing active travel and non-work trips [@vybornova2024].
+-   Recent tools often focus on either behaviour or infrastructure, limiting scope [@vierø2024].
+-   The Network Planning Tool for Scotland (NPT) demonstrates a data-centric, integrative approach.
+
+![The Network Planning Tool showing the layer user interface. Source: https://www.npt.scot/#/rnet:colour=quietness/#11.74/55.8614/-4.2273](images/paste-13.png)
 
 # Data Integration Approach
 
-- NPT is designed to integrate a variety of data types: open, proprietary, and crowdsourced.
-- Builds on prior work (e.g., CRUSE tool [@lovelace2024]) and integrates infrastructure and behavioural data.
-- Over a dozen datasets combined for holistic transport analysis.
+-   NPT is designed to integrate a variety of data types: open, proprietary, and crowdsourced.
+-   Builds on prior work (e.g., CRUSE tool [@lovelace2024]) and integrates infrastructure and behavioural data.
+-   Over a dozen datasets combined for holistic transport analysis.
+
+![Prior work: screenshot of the CRUSE tool zoomed-in on Dublin. Source: https://www.cruse.bike/](images/paste-14.png)
 
 # Key Data Sources
 
-1. **OpenStreetMap (OSM):** Crowdsourced, detailed paths and road attributes.
-2. **OS OpenRoads:** Open-access, simplified UK road network.
-3. **OS MasterMap Highways:** Detailed road widths and features.
-4. **OS MasterMap Topography:** Detailed polygons for kerb lines, footways, etc.
-5. Behavioural data: Census, Scottish Household Travel Survey, British National Travel Survey.
+1.  **OpenStreetMap (OSM):** Crowdsourced, detailed paths and road attributes.
+2.  **OS OpenRoads:** Open-access, simplified UK road network.
+3.  **OS MasterMap Highways:** Detailed road widths and features.
+4.  **OS MasterMap Topography:** Detailed polygons for kerb lines, footways, etc.
+5.  Behavioural data: Census, Scottish Household Travel Survey, British National Travel Survey.
 
 # Tools Developed and Used
 
-- `mastermapr` (R): Efficient import/processing of OS MasterMap data.
-- `osmactive` (R): Classifies OSM data, calculates pavement widths, identifies bus routes.
-- `anime` (Rust): Fast, accurate network joining and enrichment.
-- Enables harmonisation of raw, diverse datasets for NPT analysis.
+-   `mastermapr` (R): Efficient import/processing of OS MasterMap data.
+-   `osmactive` (R): Classifies OSM data, calculates pavement widths, identifies bus routes.
+-   `anime` (Rust): Fast, accurate network joining and enrichment.
+-   Enables harmonisation of raw, diverse datasets for NPT analysis.
 
 # Results: NPT Web Application
 
-- NPT web app (https://www.npt.scot) provides planners and public with insights into Scotland's transport network.
-- Efficient rendering of large datasets (e.g., via `pmtiles`).
-- Multiple interactive layers for scenario modelling and planning.
+-   NPT web app (https://www.npt.scot) provides planners and public with insights into Scotland's transport network.
+-   Efficient rendering of large datasets (e.g., via `pmtiles`).
+-   Multiple interactive layers for scenario modelling and planning.
 
 # Example Layers: Integrated Data
 
-- **Route Network Layer:** Cycling potential from OSM and OS data.
-- **Infrastructure & Traffic Layer:** Cycle infrastructure (from OSM, classified by `osmactive`) + modelled traffic.
-- **Street Space Layer:** Road classifications by available width (OS MasterMap).
-- **Core Network Layer:** Cohesive network for prioritising new infrastructure.
-- **Network Planning Workspace:** Interactive tool for exploring and modelling changes.
+-   **Route Network Layer:** Cycling potential from OSM and OS data.
+-   **Infrastructure & Traffic Layer:** Cycle infrastructure (from OSM, classified by `osmactive`) + modelled traffic.
+-   **Street Space Layer:** Road classifications by available width (OS MasterMap).
+-   **Core Network Layer:** Cohesive network for prioritising new infrastructure.
+-   **Network Planning Workspace:** Interactive tool for exploring and modelling changes.
 
----
+------------------------------------------------------------------------
 
 ### Open source classification of OSM data
 
 ![Cycle infrastructure classification in Glasgow, derived from OpenStreetMap data using the `osmactive` package.](images/paste-10.png)
 
----
+------------------------------------------------------------------------
 
 #### Street Space Layer
 
@@ -90,16 +92,23 @@ bibliography:
 
 # Discussion & Implications
 
-- Integrating diverse data sources leads to more comprehensive, adaptable models.
-- Open-source tools and methods promote reproducibility and flexibility.
-- Key benefits: improved accuracy, multi-modal insights, transparency.
-- Ongoing challenge: managing complexity and ensuring relevance as data volume grows.
+-   Integrating diverse data sources leads to more comprehensive, adaptable models.
+-   Open-source tools and methods promote reproducibility and flexibility.
+-   Key benefits: improved accuracy, multi-modal insights, transparency.
+-   Ongoing challenge: managing complexity and ensuring relevance as data volume grows.
 
 # Future Work & References
 
-- Incorporate more datasets (e.g., Scotland's Spatial Hub).
-- Research efficient data processing and feature selection.
-- Commitment to data diversity and robust integration is crucial for sustainable, equitable transport systems.
+-   Incorporate more datasets (e.g., Scotland's Spatial Hub).
+-   Research efficient data processing and feature selection.
+-   Commitment to data diversity and robust integration is crucial for sustainable, equitable transport systems.
+
+## Credits
+
+-   Full author list of paper: Robin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Pablo Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis
+-   Affiliations: University of Leeds, CycleStreets Ltd, A/B Street Ltd, Sustrans Scotland
+-   For further info: get in touch with r. lovelace at leeds.ac.uk
+
+![](images/paste-15.png)
 
 # References
-
