@@ -1,5 +1,6 @@
 ---
 title: Integrating Diverse Data Sources for Future-Proof Transport Modelling
+subtitle: "A case study of the Network Planning Tool for Scotland (NPT)<br>Source code available at [github.com/nptscot/utsg2025](https://github.com/nptscot/utsg2025)"
 format: 
   # revealjs: default
   clean-revealjs:
@@ -10,7 +11,7 @@ html-math-method:
 author:
   - name: Robin Lovelace
     orcid: 0000-0001-5679-6536
-    email: e.mail@leeds.ac.uk
+    email: R.Lovelace@leeds.ac.uk
     affiliations: University of Leeds
   - name: Juan Pablo Fonseca Zamora
     affiliations: University of Leeds
@@ -19,7 +20,7 @@ author:
   - name: Malcolm Morgan
     affiliations: University of Leeds
   - name: et. al.
-date: last-modified
+date: "2025-06-27"
 bibliography: 
   - references.bib
   - references_gisruk.bib
