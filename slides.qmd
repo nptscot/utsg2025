@@ -17,7 +17,7 @@ author:
     affiliations: University of Leeds
   - name: Zhao Wang
     affiliations: University of Leeds
-  - name: Malcolm Morgan
+  - name: Malcolm Morgan (presenter)
     affiliations: University of Leeds
   - name: et. al.
 date: "2025-06-27"
@@ -28,61 +28,64 @@ bibliography:
 
 # Motivation
 
-::: {.columns}
-
+::::: columns
 ::: {.column width="60%"}
-
 -   Traditional transport models rely on limited datasets, leading to biases and blind spots [@lovelace2017].
 -   The 'data revolution' enables integration of open, proprietary, and crowdsourced data.
 -   Aim: Develop models that can easily integrate new data sources for more robust, future-proof transport planning.
-
 :::
 
 ::: {.column width="40%"}
-
 ![Schematic diagram of the 4-stage model (Boyce and Williams 2015).](images/paste-12.png)
-
 :::
-
-:::
+:::::
 
 ## Introduction
 
-::: {.columns}
-
+::::: columns
 ::: {.column width="60%"}
-
 -   Historic models focus on commuting and simplified networks, missing active travel and non-work trips [@vybornova2024].
 -   Recent tools often focus on either behaviour or infrastructure, limiting scope [@vierø2024].
 -   The Network Planning Tool for Scotland (NPT) demonstrates a data-centric, integrative approach.
-
 :::
+
 ::: {.column width="40%"}
-
 ![The Network Planning Tool showing the layer user interface. Source: [www.npt.scot](https://www.npt.scot/#/rnet:colour=quietness/#11.74/55.8614/-4.2273)](images/paste-13.png)
+:::
+:::::
+
+## Network Planning Tool for Scotland (NPT)
+
+::::: columns
+::: {.column width="63%"}
+
+<!-- ![](images/paste-16.png) -->
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7341844941691666434?collapsed=1" height="620" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 :::
+::: {.column width="37%"}
+- Funded by Transport Scotland
+- 2.5 years in the making
+- Instigated by Sustrans Scotland
+- Developed by ITS Leeds, CycleStreets, A/B Street, guided by Sustrans Scotland
+- Highly Commended at Scottish Transport Awards (Source: [LinkedIn](https://www.linkedin.com/posts/robin-lovelace-20751a34_very-happy-to-announce-that-the-network-planning-activity-7341844943117725696-NJO0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAcyEacBxZg5DzXNiDM5zOH09FjiKJiLD9Q))
+
 :::
+:::::
 
 # Data Integration
 
-::: {.columns}
-
+::::: columns
 ::: {.column width="60%"}
-
 -   NPT is designed to integrate a variety of data types: open, proprietary, and crowdsourced.
 -   Builds on prior work (e.g., CRUSE tool [@lovelace2024]) and integrates infrastructure and behavioural data.
 -   Over a dozen datasets combined for holistic transport analysis.
-
 :::
 
 ::: {.column width="40%"}
-
 ![Prior work: screenshot of the CRUSE tool zoomed-in on Dublin. Source: https://www.cruse.bike/](images/paste-14.png)
-
 :::
-
-:::
+:::::
 
 # Key Data Sources
 
@@ -101,12 +104,11 @@ bibliography:
 
 # Results: NPT Web Application
 
-
 -   NPT web app (https://www.npt.scot) provides planners and public with insights into Scotland's transport network.
 -   Efficient rendering of large datasets (e.g., via `pmtiles`).
 -   Multiple interactive layers for scenario modelling and planning.
 
-# Live demo 
+# Live demo
 
 Give the tool a try at [www.npt.scot](https://www.npt.scot)!
 
