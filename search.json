@@ -21,10 +21,17 @@
     "text": "Project summary\nThis project demonstrates how open, proprietary, and crowdsourced data can be integrated for robust, reproducible transport analysis and planning. For details, see the slides and paper."
   },
   {
-    "objectID": "slides.html#full-author-list",
-    "href": "slides.html#full-author-list",
+    "objectID": "slides.html#introduction",
+    "href": "slides.html#introduction",
     "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
-    "section": "Full author list",
-    "text": "Full author list\n\nRobin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Pablo Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis\nAffiliations: University of Leeds, CycleStreets Ltd, A/B Street Ltd, Sustrans Scotland"
+    "section": "Introduction",
+    "text": "Introduction\n\n\n\nHistoric models focus on commuting and simplified networks, missing active travel and non-work trips (Vybornova et al. 2024).\nRecent tools often focus on either behaviour or infrastructure, limiting scope (Vierø, Vybornova, and Szell 2024).\nThe Network Planning Tool for Scotland (NPT) demonstrates a data-centric, integrative approach.\n\n\n\n\n\nThe Network Planning Tool showing the layer user interface. Source: www.npt.scot"
+  },
+  {
+    "objectID": "slides.html#credits",
+    "href": "slides.html#credits",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
+    "section": "Credits",
+    "text": "Credits\n\nFull author list of paper: Robin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Pablo Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis\nAffiliations: University of Leeds, CycleStreets Ltd, A/B Street Ltd, Sustrans Scotland\nFor further info: get in touch with r. lovelace at leeds.ac.uk"
   }
 ]
