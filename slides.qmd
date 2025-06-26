@@ -27,11 +27,23 @@ bibliography:
 
 # Motivation
 
+::: {.columns}
+
+::: {.column width="60%"}
+
 -   Traditional transport models rely on limited datasets, leading to biases and blind spots [@lovelace2017].
 -   The 'data revolution' enables integration of open, proprietary, and crowdsourced data.
 -   Aim: Develop models that can easily integrate new data sources for more robust, future-proof transport planning.
 
+:::
+
+::: {.column width="40%"}
+
 ![Schematic diagram of the 4-stage model (Boyce and Williams 2015).](images/paste-12.png)
+
+:::
+
+:::
 
 # Introduction
 
