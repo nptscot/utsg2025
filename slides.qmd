@@ -58,18 +58,19 @@ bibliography:
 
 ::::: columns
 ::: {.column width="63%"}
-
 <!-- ![](images/paste-16.png) -->
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7341844941691666434?collapsed=1" height="620" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7341844941691666434?collapsed=1" height="620" width="504" frameborder="0" allowfullscreen title="Embedded post">
+
+</iframe>
 :::
-::: {.column width="37%"}
-- Funded by Transport Scotland
-- 2.5 years in the making
-- Instigated by Sustrans Scotland
-- Developed by ITS Leeds, CycleStreets, A/B Street, guided by Sustrans Scotland
-- Highly Commended at Scottish Transport Awards (Source: [LinkedIn](https://www.linkedin.com/posts/robin-lovelace-20751a34_very-happy-to-announce-that-the-network-planning-activity-7341844943117725696-NJO0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAcyEacBxZg5DzXNiDM5zOH09FjiKJiLD9Q))
 
+::: {.column width="37%"}
+-   Funded by Transport Scotland
+-   2.5 years in the making
+-   Instigated by Sustrans Scotland
+-   Developed by ITS Leeds, CycleStreets, A/B Street, guided by Sustrans Scotland
+-   Highly Commended at Scottish Transport Awards (Source: [LinkedIn](https://www.linkedin.com/posts/robin-lovelace-20751a34_very-happy-to-announce-that-the-network-planning-activity-7341844943117725696-NJO0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAcyEacBxZg5DzXNiDM5zOH09FjiKJiLD9Q))
 :::
 :::::
 
@@ -122,17 +123,30 @@ Give the tool a try at [www.npt.scot](https://www.npt.scot)!
 -   **Core Network Layer:** Cohesive network for prioritising new infrastructure.
 -   **Network Planning Workspace:** Interactive tool for exploring and modelling changes.
 
-------------------------------------------------------------------------
-
-### Open source classification of OSM data
+## Open source classification of OSM data
 
 ![Cycle infrastructure classification in Glasgow, derived from OpenStreetMap data using the `osmactive` package.](images/paste-10.png)
 
-------------------------------------------------------------------------
-
-#### Street Space Layer
+## Street Space Layer
 
 ![The Street Space layer in the NPT, showing roads categorised by available width for infrastructure.](images/paste-11.png)
+
+## Traffic layer (Existing network layer)
+
+::::: columns
+::: {.column width="66%"}
+<!-- ![](images/paste-17.png) -->
+
+![](images/paste-18.png)
+:::
+
+::: {.column width="34%"}
+-   Credit: Juan Pablo Fonseca Zamora
+-   Plug: Juan's UTSG 2025 talk, "Spatiotemporal Analysis of Traffic Offences", 2nd session of the Smart & Data-Driven Mobility session, 11:00-12:30, Room L246, **later today**.
+<!-- https://www.npt.scot/#/clos:clos-layer=Traffic+volume+category/#10.61/55.8614/-4.2125 -->
+-   Reproducible source link: [www.npt.scot/](https://www.npt.scot/#/clos:clos-layer=Traffic+volume+category/#10.61/55.8614/-4.2125)
+:::
+:::::
 
 # Discussion & Implications
 
