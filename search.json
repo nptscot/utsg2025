@@ -35,6 +35,27 @@
     "text": "Network Planning Tool for Scotland (NPT)\n\n\n\n\n\n\n\nFunded by Transport Scotland\n2.5 years in the making\nInstigated by Sustrans Scotland\nDeveloped by ITS Leeds, CycleStreets, A/B Street, guided by Sustrans Scotland\nHighly Commended at Scottish Transport Awards (Source: LinkedIn)"
   },
   {
+    "objectID": "slides.html#open-source-classification-of-osm-data",
+    "href": "slides.html#open-source-classification-of-osm-data",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
+    "section": "Open source classification of OSM data",
+    "text": "Open source classification of OSM data\n\nCycle infrastructure classification in Glasgow, derived from OpenStreetMap data using the osmactive package."
+  },
+  {
+    "objectID": "slides.html#street-space-layer",
+    "href": "slides.html#street-space-layer",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
+    "section": "Street Space Layer",
+    "text": "Street Space Layer\n\nThe Street Space layer in the NPT, showing roads categorised by available width for infrastructure."
+  },
+  {
+    "objectID": "slides.html#traffic-layer-existing-network-layer",
+    "href": "slides.html#traffic-layer-existing-network-layer",
+    "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
+    "section": "Traffic layer (Existing network layer)",
+    "text": "Traffic layer (Existing network layer)\n\n\n\n\n\n\nCredit: Juan Pablo Fonseca Zamora\nPlug: Juan’s UTSG 2025 talk, “Spatiotemporal Analysis of Traffic Offences”, 2nd session of the Smart & Data-Driven Mobility session, 11:00-12:30, Room L246, later today. \nReproducible source link: www.npt.scot/"
+  },
+  {
     "objectID": "slides.html#credits",
     "href": "slides.html#credits",
     "title": "Integrating Diverse Data Sources for Future-Proof Transport Modelling",
