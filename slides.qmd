@@ -12,7 +12,7 @@ author:
     orcid: 0000-0001-5679-6536
     email: e.mail@leeds.ac.uk
     affiliations: University of Leeds
-  - name: Juan Jose Fonseca Zamora
+  - name: Juan Pablo Fonseca Zamora
     affiliations: University of Leeds
   - name: Zhao Wang
     affiliations: University of Leeds
@@ -26,7 +26,7 @@ bibliography:
 ---
 
 ## Full author list
-- Robin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Jose Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis
+- Robin Lovelace, Zhao Wang, Hussein Mahfouz, Juan Pablo Fonseca Zamora, Martin Lucas-Smith, Dustin Carlino, Angus Calder, Congying Hu, Michael Naysmith, Matthew Davis
 - Affiliations: University of Leeds, CycleStreets Ltd, A/B Street Ltd, Sustrans Scotland
 
 # Motivation
