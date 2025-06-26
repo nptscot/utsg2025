@@ -45,21 +45,43 @@ bibliography:
 
 :::
 
-# Introduction
+## Introduction
+
+::: {.columns}
+
+::: {.column width="60%"}
 
 -   Historic models focus on commuting and simplified networks, missing active travel and non-work trips [@vybornova2024].
 -   Recent tools often focus on either behaviour or infrastructure, limiting scope [@vierø2024].
 -   The Network Planning Tool for Scotland (NPT) demonstrates a data-centric, integrative approach.
 
-![The Network Planning Tool showing the layer user interface. Source: https://www.npt.scot/#/rnet:colour=quietness/#11.74/55.8614/-4.2273](images/paste-13.png)
+:::
+::: {.column width="40%"}
 
-# Data Integration Approach
+![The Network Planning Tool showing the layer user interface. Source: [www.npt.scot](https://www.npt.scot/#/rnet:colour=quietness/#11.74/55.8614/-4.2273)](images/paste-13.png)
+
+:::
+:::
+
+# Data Integration
+
+::: {.columns}
+
+::: {.column width="60%"}
 
 -   NPT is designed to integrate a variety of data types: open, proprietary, and crowdsourced.
 -   Builds on prior work (e.g., CRUSE tool [@lovelace2024]) and integrates infrastructure and behavioural data.
 -   Over a dozen datasets combined for holistic transport analysis.
 
+:::
+
+::: {.column width="40%"}
+
 ![Prior work: screenshot of the CRUSE tool zoomed-in on Dublin. Source: https://www.cruse.bike/](images/paste-14.png)
+
+:::
+
+:::
 
 # Key Data Sources
 
