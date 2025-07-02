@@ -113,7 +113,7 @@ bibliography:
 
 Give the tool a try at [www.npt.scot](https://www.npt.scot)!
 
-{{< video https://youtu.be/2pC6_9yJOH8 width="900" height="506" >}}
+{{< video https://youtu.be/uCxkcKNr_vA width="900" height="506" >}}
 
 # Example Layers: Integrated Data
 
